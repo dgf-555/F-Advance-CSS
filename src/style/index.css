@@ -9,12 +9,140 @@ body {
   font-size: 16px;
 }
 
+/* header, main, footer, .About, .Archives, figure, .sign-in-form {
+  border: 2px solid green;
+} */
+
+ figure {
+  border: 1px solid lightgray;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(65, 65, 65);
+  color: rgb(216, 216, 216);
+  height: 60px;
+}
+
+.nav-links > li {
+  margin-left: 50px;
+}
+
+.nav-links li:last-child {
+  margin-right: 50px;
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+input {
+  display: block;
+  border: 1px solid rgb(192, 190, 190);
+  height: 30px;
+}
+
+.left-information {
+  float: left;
+}
+
+.About {
+  background-color: rgb(243, 243, 243);
+  padding: 10px 10px;
+  margin-left: 30px;
+  width: 200px;
+}
+
+.Archives {
+  padding: 20px 10px;
+  margin-left: 30px;
+  width: 200px;
+}
+
+.left-information h2 {
+  font-style: italic;
+}
+
+.article {
+  position: relative;
+}
+
+.article a {
+  text-decoration: none;
+  color: rgb(41, 79, 247);
+}
+
+.article figcaption {
+  padding: 0 10px;
+}
+
+.figureone {
+  position: absolute;
+  left: 220px;
+  top: 0px;
+  width: 420px;
+}
+
+.figuretwo {
+  position: absolute;
+  left: 700px;
+  top: 0px;
+  width: 420px;
+}
+
+.figurethree {
+  position: absolute;
+  left: 220px;
+  top: 450px;
+  width: 420px;
+}
+
+.img {
+  width: 420px;
+}
+
+.sign-in {
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  padding: 20px 20px;
+  position: fixed;
+  top: 300px;
+  right: 70px;
+}
+
+.checkbox {
+  display: flex;
+}
+
+.checkbox span{
+  font-size: 10px;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+.confirm-button {
+  background-color: rgb(85, 151, 252);
+  color: white;
+  height: 28px;
+  width: 164px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer p {
+  padding: 0;
+}
+.footer {
+  margin-top: 980px;
+  background-color:  rgb(243, 243, 243);
+  text-align: center;
+  padding: 20px ;
 }
